@@ -1,6 +1,12 @@
 @media (min-width: 601px) {
 	body {
-		background-color: white;
+		background-color: #f6f6f2;
+	}
+}
+
+@media (max-width: 600px) {
+	body {
+		background-color: #ffffff;
 	}
 }
 
@@ -8,9 +14,123 @@
 	position: fixed;
 	top: 0;
 	width: 100%;
+	padding: 24px;
+	background-color: #399087;
+	display: block;
+	border-radius: 5px;
+	text-transform: uppercase;
+	border-bottom: solid 2px #6fb3b8;
+	font-family: "Oswald", sans-serif;
+	max-width: 1838px;
+}
+
+#navbar a {
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	padding-left: 10px;
+	padding-right: 21px;
+}
+
+#navbar a:hover {
+	background-color: #c2edce;
+	color: black;
+	padding: 24px;
+}
+
+h1 {
+	margin-bottom: 0;
+	margin-top: 100px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+h2 {
+	font-size: 24px;
+	font-style: italic;
+	margin-top: 0;
+}
+
+#projects {
+	background-color: #f6f6f2;
+	text-align: center;
+	padding-left: 15vw;
+	padding-right: 15vw;
+	display: flex;
+	justify-content: space-between;
+	margin: 40px;
+}
+
+.project-tile {
+	padding: 10px;
+	background-color: #f6f6f2;
+	color: black;
+	font-family: "Cutive Mono", monospace;
+}
+
+.project-tile a {
+	color: black;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+figure img {
+	border: 5px solid #399087;
+}
+
+img:hover {
+	box-shadow: 0px 0px 10px #399087;
+}
+
+#contact {
+	background-color: #6fb3b8;
+	padding: 40px;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+#contact a {
+	text-decoration: none;
+	color: white;
+	margin: 0;
+}
+
+#contact {
+	color: white;
+}
+
+#contact h1 {
+	margin: 0;
+	text-align: center;
+	font-family: "Cutive Mono", monospace;
+	color: white;
+}
+
+footer {
+	background-color: #6fb3b8;
+	border-top: solid #399087 3px;
+	text-align: center;
+	font-family: "Cutive Mono", monospace;
+	color: white;
+	padding: 1.5rem;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+footer a:hover {
+	color: black;
+	background-color: #c2edce;
 }
 
 #welcome-section {
 	height: 100vh;
-	background-color: red;
+	background-color: #badfe7;
+	font-family: "Cutive Mono", monospace;
+	font-size: 50px;
+	padding-top: 100px;
+	text-align: center;
 }
