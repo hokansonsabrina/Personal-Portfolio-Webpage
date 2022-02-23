@@ -1,0 +1,16 @@
+@media (min-width: 601px) {
+	body {
+		background-color: white;
+	}
+}
+
+#navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#welcome-section {
+	height: 100vh;
+	background-color: red;
+}
